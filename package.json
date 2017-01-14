@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-semtech/ember-async-expanding-tree"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -41,7 +44,8 @@
     "ember-try": "~0.0.8"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "mu-semtech"
   ],
   "dependencies": {
     "ember-cli-htmlbars": "^1.0.1",
